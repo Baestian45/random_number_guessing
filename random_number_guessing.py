@@ -1,7 +1,7 @@
-import random
+import better_random
 
 def guess_number():
-    random_number = random.randint(1, 100)
+    random_number = better_random.random_int(1, 100)
     attempts = 0
 
     print("Welcome to my great number game")
